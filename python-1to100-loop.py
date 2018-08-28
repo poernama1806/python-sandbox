@@ -9,13 +9,13 @@ x = 1
 while x < 101:
     # check if the value can be divided by both 5 and 3 (multiple of 5 and 3)
     if x % 3 == 0 and x % 5 == 0:
-        print('LoktarOgar')
+        print(x,'= LoktarOgar')
     # check if the value can be divided by 3
     elif x % 3 == 0:
-        print('Loktar')
+        print(x,'= Loktar')
     # check if the value can be divided by 5
     elif x % 5 == 0:
-        print('Ogar')
+        print(x,'= Ogar')
     else:
         print(x)
     x += 1 # x = x + 1 
